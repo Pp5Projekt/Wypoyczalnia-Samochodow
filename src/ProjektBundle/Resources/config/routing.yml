@@ -6,3 +6,7 @@ projekt_category:
     path:     /category
     defaults: { _controller: ProjektBundle:Default:category }
 
+projekt_subcategory:
+    path:     /category/sub
+    defaults: { _controller: ProjektBundle:Default:subcategory }
+

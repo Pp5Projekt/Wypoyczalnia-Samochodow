@@ -15,4 +15,9 @@ class DefaultController extends Controller
     {
         return $this->render('ProjektBundle:Kategorie:category.html.twig');
     }
+
+     public function subcategoryAction()
+    {
+        return $this->render('ProjektBundle:Kategorie:subcategory.html.twig');
+    }
 }
