@@ -1,0 +1,19 @@
+EpopeeBundle\Entity\TP:
+    type: entity
+    table: null
+    repositoryClass: EpopeeBundle\Repository\TPRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+        price:
+            type: float
+        description:
+            type: text
+    lifecycleCallbacks: {  }

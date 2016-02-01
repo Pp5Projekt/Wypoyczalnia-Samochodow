@@ -1,0 +1,28 @@
+EpopeeBundle\Entity\Samochody:
+    type: entity
+    table: null
+    repositoryClass: EpopeeBundle\Repository\SamochodyRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        marka:
+            type: string
+            length: '255'
+        model:
+            type: string
+            length: 255
+        rocznik:
+            type: string
+            length: '4'
+        opis:
+            type: string
+            length: 255
+        cena:
+            type: decimal
+            precision: 10
+            scale: 0
+    lifecycleCallbacks: {  }

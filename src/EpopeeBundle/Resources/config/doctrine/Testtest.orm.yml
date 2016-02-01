@@ -1,0 +1,16 @@
+EpopeeBundle\Entity\Testtest:
+    type: entity
+    table: null
+    repositoryClass: EpopeeBundle\Repository\TesttestRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nazwa:
+            type: string
+            length: 255
+            column: Nazwa
+    lifecycleCallbacks: {  }
